@@ -1,10 +1,8 @@
-svar = "ja"
-
-svar = input("Ja/nej: ")
-
-while svar == "ja":
-    print("Du är bäst")
-    svar = input("Vill du höra igen? ")
-
-if svar == "nej":
-    print("Hej då")
+tal = int(input("Ange ett tal: "))
+if tal < 42:
+    print("för litet")
+elif tal > 42:
+    print("För stort")
+elif tal == 42:
+    print("Rätt")
+print("tack o hej")
