@@ -1,5 +1,14 @@
 Loggbok
 ===========
+23 10 26
+----------
+
+Gjorde: 
+### 7100 - listor.
+fil: ((Upp 1).py) i filen 7100 - slingor
+Gick okej. Var lite klurigt i början med att hitta alla rätta  koder och skriva ut dem rätt.
+Gjorde även test 7 idag och det kändes okej.
+
 
 23 10 19
 -----------
