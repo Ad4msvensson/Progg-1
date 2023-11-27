@@ -1,5 +1,16 @@
 Loggbok
-===========
+==========
+23 11 27
+---------
+Gjorde: 
+Pluggade på test 9
+
+
+23 11 06
+----------
+Gjorde: 
+Testade och pluggade på Test 8 inför torsdag. 
+
 23 10 26
 ----------
 
