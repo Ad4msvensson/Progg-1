@@ -1,5 +1,10 @@
 Loggbok
 ==========
+23 12 04
+----------
+Gjorde:
+Laddade ned alla programm och andra installationer på ny dator. Pluggade lite också på test 9 då jag var sjuk förra torsdagen och kunde inte göra test.
+
 23 11 27
 ---------
 Gjorde: 
