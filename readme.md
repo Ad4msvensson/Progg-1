@@ -1,5 +1,14 @@
 Loggbok
 ==========
+23 12 14/18
+-----------
+Torsdagen var det UF dag så det blev ingen programmering och då inget test. Måndagen så pluggade jag vidare på test 10 inför nästa termin ifall det så man ska fortsätta med testen då.
+
+
+23 12 7/11
+----------
+På Torsdagen gjorde jag test 9 och fick tillbaka testet på måndag och så fick jag se att det var godkänt. Jag på började lite på pluggandet av test 10.
+
 23 12 04
 ----------
 Gjorde:
