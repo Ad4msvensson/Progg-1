@@ -1,5 +1,10 @@
 Loggbok
 ==========
+
+24 2 19
+-----------
+Jag har kvar test 10 kvar att göra så jag tränar vidare på det och tittar lite på projekten som finns att göra. 
+
 23 12 14/18
 -----------
 Torsdagen var det UF dag så det blev ingen programmering och då inget test. Måndagen så pluggade jag vidare på test 10 inför nästa termin ifall det så man ska fortsätta med testen då.

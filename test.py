@@ -1,19 +1,11 @@
-def a():
- print("b")
-def c():
- return("d")
-def e(f):
- return f * f
-def i(j):
- print("a", j)
-def l(m):
- return"m" + m
-def o(p):
- return p + 2
-a()
-g = c()
-print(g)
-print(e(3))
-i("c")
-print(l("o"))
-print(o(4))
+def maximum(a, b):
+    # Funktionen maximum returnerar det största talet.
+    return max(a, b)
+
+def addera(a, b):
+    # Funktionen addera lägger ihop talen och returnerar svaret.
+    return a + b
+
+def hej(namn):
+    # Funktionen hej skriver ut en hälsningsfras med det givna namnet.
+    print('hej {namn}')
