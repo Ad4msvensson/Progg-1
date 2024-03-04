@@ -1,6 +1,10 @@
 Loggbok
 ==========
 
+24 3 04
+-----------
+
+
 24 2 19
 -----------
 Jag har kvar test 10 kvar att göra så jag tränar vidare på det och tittar lite på projekt som kan göras. Testade ett eget projekt där man gissar på karaktärer som passar in i lösenordet. Har lagt till python dokumentet och det heter character.py.
