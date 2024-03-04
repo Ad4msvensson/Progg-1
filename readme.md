@@ -3,7 +3,7 @@ Loggbok
 
 24 3 04
 -----------
-
+Pluggade till test 10 och tittade lite på black jack som projekt att jobba på.
 
 24 2 19
 -----------
