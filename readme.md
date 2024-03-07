@@ -1,6 +1,10 @@
 Loggbok
 ==========
 
+24 03 07
+-------------
+Tittade vidare på black jack som projekt. Har sökt och kollat hur andra har gjort och testat deras kod men då stött på problem med en del av koden som gör att den inte läser av ett korts värde.
+
 24 3 04
 -----------
 Pluggade till test 10 och tittade lite på black jack som projekt att jobba på.
