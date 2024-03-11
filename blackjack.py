@@ -33,7 +33,7 @@ def total(hand):
 	    elif card == "A":
 	        if total >= 11: total+= 1
 	    else: total+= 11 
-        else:  
+else:
         total += card  
     return total
 
