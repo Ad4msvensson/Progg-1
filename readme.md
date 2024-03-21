@@ -1,6 +1,18 @@
 Loggbok
 ==========
 
+Black jack
+==========
+mål
+-------
+
+1. kortlek
+2. regler
+3. värde
+4. dator motståndare
+
+
+
 24 03 07
 -------------
 Tittade vidare på black jack som projekt. Har sökt och kollat hur andra har gjort och testat deras kod men då stött på problem med en del av koden som gör att den inte läser av ett korts värde.
