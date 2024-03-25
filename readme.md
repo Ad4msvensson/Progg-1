@@ -11,7 +11,15 @@ mål
 3. värde
 4. dator motståndare
 
+24 03 25
+------------
+Jag har kommit en bit på kodandet av black jack under denna lektionen. Tidigt på fastnade jag då jag fick up fel syntax när jag började definiera och det var pågrund av att koden inte var helt klar och då vet den inte vad som defienieras och då ger upp ett error. Annars så flöt det på bra och nu kommit en bra bit in.
 
+
+24 03 21
+-------------
+
+Jag har valt black jack som projekt nu och har satt upp mål 
 
 24 03 07
 -------------
