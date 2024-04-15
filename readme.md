@@ -11,6 +11,10 @@ mål
 3. värde
 4. dator motståndare
 
+24 04 15
+---------
+Har gjort en fungerande black jack spel nu. Den har ingen kod för pengar/bank och man behöver alltid börja om hela koden från början för att fortsätta spela. Till nästa vecka är målet att försöka lägga till en pengar bank så man kan beta samt fixa så man kan välja att spela igen eller fortsätta om man har pengar kvar.
+
 24 03 25
 ------------
 Jag har kommit en bit på kodandet av black jack under denna lektionen. Tidigt på fastnade jag då jag fick up fel syntax när jag började definiera och det var pågrund av att koden inte var helt klar och då vet den inte vad som defienieras och då ger upp ett error. Annars så flöt det på bra och nu kommit en bra bit in.
