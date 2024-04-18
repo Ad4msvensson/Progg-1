@@ -11,6 +11,19 @@ mål
 3. värde
 4. dator motståndare
 
+24 04 18
+---------
+Jag startade lektionen med att försöka lägga till kod så att spelet skulle fråga spelaren ifall hen ville spela igen oavsett vinst, förlust eller lika. Jag fick lägga in en while slinga inne i def blackjack så jag kunde skapa en loop av spelet.
+
+While true: 
++
+play_again = input("Vill du spela igen? (Ja/Nej): ").lower()
+  if play_again != 'ja':
+     break
+
+Dessa är den kodning jag fick lägga in för att göra en loop av spelet samt lägga in frågan.
+Jag han påbörja lite på bettnings koden så att man kan använda sig av "pengar" och beta i spelen men inte
+
 24 04 15
 ---------
 Har gjort en fungerande black jack spel nu. Den har ingen kod för pengar/bank och man behöver alltid börja om hela koden från början för att fortsätta spela. Till nästa vecka är målet att försöka lägga till en pengar bank så man kan beta samt fixa så man kan välja att spela igen eller fortsätta om man har pengar kvar.

@@ -32,34 +32,45 @@ def player_turn(deck, player_hand):
         elif player_choice == 'stand':
             return True
 
+def place_bet():
+    while True: 
+            
+
+  
+
 def dealer_turn(deck, dealer_hand):
     while calculate_total(dealer_hand) < 17:
         dealer_hand.append(deal_card(deck))
     return dealer_hand
 
 def blackjack():
-    player_hand = [deal_card(deck), deal_card(deck)]
-    dealer_hand = [deal_card(deck), deal_card(deck)]
+    while True: 
+      player_hand = [deal_card(deck), deal_card(deck)]
+      dealer_hand = [deal_card(deck), deal_card(deck)]
 
-    print("Din hand:", player_hand, "Total:", calculate_total(player_hand))
-    print("Dealer's hand:", [dealer_hand[0], '??'], "Total:", card_values[dealer_hand[0][0]])
+      print("Din hand:", player_hand, "Total:", calculate_total(player_hand))
+      print("Dealer's hand:", [dealer_hand[0], '??'], "Total:", card_values[dealer_hand[0][0]])
 
-    if player_turn(deck, player_hand):
-        dealer_turn(deck, dealer_hand)
+      if player_turn(deck, player_hand):
+          dealer_turn(deck, dealer_hand)
 
-        player_total = calculate_total(player_hand)
-        dealer_total = calculate_total(dealer_hand)
+          player_total = calculate_total(player_hand)
+          dealer_total = calculate_total(dealer_hand)
 
-        print("Din hand:", player_hand, "Total:", player_total)
-        print("Dealer's hand:", dealer_hand, "Total:", dealer_total)
+          print("Din hand:", player_hand, "Total:", player_total)
+          print("Dealer's hand:", dealer_hand, "Total:", dealer_total)
 
-        if player_total > 21:
-            print("Du förlorar!")
-        elif dealer_total > 21 or player_total > dealer_total:
-            print("Du vinner!")
-        elif player_total == dealer_total:
-            print("Det är lika!")
-        else:
-            print("Du förlorar!")
+          if player_total > 21:
+              print("Du förlorar!")
+          elif dealer_total > 21 or player_total > dealer_total:
+              print("Du vinner!")
+          elif player_total == dealer_total:
+              print("Det är lika!")
+          else:
+              print("Du förlorar!")
+
+          play_again = input("Vill du spela igen? (Ja/Nej): ").lower()
+          if play_again != 'ja':
+              break
 
 blackjack()
