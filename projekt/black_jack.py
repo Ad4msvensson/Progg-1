@@ -32,9 +32,7 @@ def player_turn(deck, player_hand):
         elif player_choice == 'stand':
             return True
 
-def place_bet():
-    while True: 
-            
+
 
   
 

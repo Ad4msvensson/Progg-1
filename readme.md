@@ -11,6 +11,13 @@ mål
 3. värde
 4. dator motståndare
 
+
+24 04 25
+----------
+Under lektionen så spenderades den större delen av tiden på ett möte med uf-företaget och diskutioner angående affären som vi arbetar med så det blev inte så mycket gjort i proggrammering tyvärr.
+
+
+
 24 04 18
 ---------
 Jag startade lektionen med att försöka lägga till kod så att spelet skulle fråga spelaren ifall hen ville spela igen oavsett vinst, förlust eller lika. Jag fick lägga in en while slinga inne i def blackjack så jag kunde skapa en loop av spelet.
