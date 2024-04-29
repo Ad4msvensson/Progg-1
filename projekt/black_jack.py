@@ -29,27 +29,30 @@ def player_turn(deck, player_hand):
             if total > 21:
                 print("Bust! DU förlorar.")
                 return False
-        elif player_choice == 'stand':
-            return True
-
-
-
-  
-
+        elif player_choice == 'stand':            return True
 def dealer_turn(deck, dealer_hand):
     while calculate_total(dealer_hand) < 17:
         dealer_hand.append(deal_card(deck))
     return dealer_hand
 
 def blackjack():
-    while True: 
-      player_hand = [deal_card(deck), deal_card(deck)]
-      dealer_hand = [deal_card(deck), deal_card(deck)]
+       player_money = 100
+       while True:
+        print(f"Your current balance: ${player_money}")
 
-      print("Din hand:", player_hand, "Total:", calculate_total(player_hand))
-      print("Dealer's hand:", [dealer_hand[0], '??'], "Total:", card_values[dealer_hand[0][0]])
+        bet_amount = int(input("Place your bet: $"))
 
-      if player_turn(deck, player_hand):
+        if bet_amount > player_money:
+            print("You don't have enough money.")
+            continue 
+       while True:
+        player_hand = [deal_card(deck), deal_card(deck)]
+       dealer_hand = [deal_card(deck), deal_card(deck)]
+
+       print("Din hand:", player_hand, "Total:", calculate_total(player_hand))
+       print("Dealer's hand:", [dealer_hand[0], '??'], "Total:", card_values[dealer_hand[0][0]])
+
+       if player_turn(deck, player_hand):
           dealer_turn(deck, dealer_hand)
 
           player_total = calculate_total(player_hand)
@@ -60,15 +63,21 @@ def blackjack():
 
           if player_total > 21:
               print("Du förlorar!")
+              player_money -= bet_amount
           elif dealer_total > 21 or player_total > dealer_total:
               print("Du vinner!")
+              player_money += bet_amount
           elif player_total == dealer_total:
               print("Det är lika!")
           else:
               print("Du förlorar!")
-
+              player_money -= bet_amount
+          if player_money <= 0:
+                print("You're out of money. Game over.")
+          break
           play_again = input("Vill du spela igen? (Ja/Nej): ").lower()
           if play_again != 'ja':
-              break
+            print(f"Your final balance: ${player_money}")
+          break
 
 blackjack()
